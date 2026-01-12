@@ -73,7 +73,7 @@ streamlit run plagiarism_checker.py
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/utsavish/wikipedia-plagiarism-checker
-cd plagiarism-checker
+cd wikipedia-plagiarism-checker
 ```
 
 ### 2. Install dependencies
