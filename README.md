@@ -69,6 +69,7 @@ streamlit run plagiarism_checker.py
 ---
 
 ## ⚙️ Installation
+You need to have python version **3.13** to run this project, please install it before moving ahead.
 
 ### 1. Clone the repository
 ```bash
@@ -76,12 +77,25 @@ git clone https://github.com/utsavish/wikipedia-plagiarism-checker
 cd wikipedia-plagiarism-checker
 ```
 
-### 2. Install dependencies
+### 2. Make a virtual enviroment and activate it
+For Windows users
+```powershell
+python -3.13 -m venv venv
+.\venv\Scripts\Activate
+```
+For Linux and Mac users
+```bash
+python3.13 -m venv venv
+source ./venv/bin/Activate
+```
+
+
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run the app
+### 4. Run the app
 ```bash
 streamlit run plagiarism_checker.py
 ```
