@@ -72,7 +72,7 @@ streamlit run plagiarism_checker.py
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/utsavish/plagiarism-checker.git
+git clone https://github.com/utsavish/wikipedia-plagiarism-checker
 cd plagiarism-checker
 ```
 
